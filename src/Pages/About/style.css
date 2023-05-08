@@ -1,0 +1,23 @@
+.slider-card {
+   margin: 10px 30px;
+}
+
+.slider-card h1{
+   color: #fff;
+}
+
+.slider-card img {
+   width: 200px;
+}
+
+.about-me-title h1 {
+   color: #fff;
+}
+
+.ser-title {
+   color: #fff;
+}
+
+/* .about-me-title {
+   background-image: url('../../News/images/Inhouse_Outsourced_Cybersecurity_1000x500-1000x500-2023-01-28_074439.jpeg')
+} */

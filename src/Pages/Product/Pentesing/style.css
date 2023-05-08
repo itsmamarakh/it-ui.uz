@@ -1,0 +1,88 @@
+
+
+.pentesing-about {
+   height: 320px;
+}
+
+.pentesing-about h1{
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.pentesing-about p {
+   color: #999;
+   font-size: 18px;
+}
+
+.pentesing-card {
+   height: 270px;
+}
+
+.pentesing-card h1 {
+   font-size: 22px;
+   color: #fff;
+}
+
+.pentesing-box {
+   background: rgb(19 19 21);
+   border-radius: 20px;
+   margin: 20px;
+   padding: 10px;
+}
+
+.pentesing-svg {
+   background: rgb(19 19 21);
+   margin: 20px;   
+   border-radius: 20px;
+   padding: 25px;
+}
+
+.svg-fill {
+   border: none;
+   padding: 3px;
+   border-radius: 10px;
+   background-color: #8F77FF;
+}
+
+.pentesing-screen {
+   height: 300px;
+}
+
+.pentesing-screen h1{
+    color: #fff;
+    font-size: 28px;
+}
+
+.pentesing-screen span {
+   font-size: 20px;
+   margin-left: 5px;
+   color: #555;
+}
+
+.creen-card {
+   background-color: #111;
+   width: 40%;
+   border-radius: 20px;
+   text-align: center;
+   padding: 10px;
+   opacity: 0.3;
+}
+
+.creen-card:hover {
+   opacity: 0.6;
+   transition: 0.9s;
+}
+
+@media (max-width: 620px) {
+    .pentesing-card {
+      margin-top: 50px;
+      
+    }
+}
+
+@media (max-width: 420px) {
+   .pentesing-card {
+   margin-top: 200px;
+   }
+}

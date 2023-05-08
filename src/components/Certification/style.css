@@ -1,0 +1,135 @@
+.info-width {
+	font-size: 1.1rem;
+}
+
+.overview-row {
+	margin-top: 5rem;
+}
+
+.overview-header {
+	font-weight: 900;
+   font-size: 18px;
+}
+
+
+.cer-header {
+   margin: 0 1px;
+}
+
+.cert-card {
+   background-color: rgb(19 19 21);
+   margin: 15px 5px;
+   box-sizing: border-box;
+   border-radius: 20px;
+}
+
+.boxss {
+   background-color: rgb(19 19 21);
+   border-radius: 20px;
+   margin: 20px;
+   padding: 0;
+   height: 200px;
+}
+
+.certiImg img {
+   height: 150px; 
+}
+
+.certiImg {
+   padding: 10px;
+}
+
+.certiTitle {
+   margin-left: 10px;
+}
+
+.certiTitle h1 {
+    color: #fff;
+}
+
+.certiTitle p {
+   color: #777;
+   font-size: 18px;
+}
+
+@media only screen and (max-width: 767px) {
+   .pricing {
+      margin-top: 20%;
+   }
+   .card {
+		margin: 20px 0;
+	}
+}
+
+@media (max-width: 750px) {
+   .box {
+      flex-direction: column;
+      
+  }
+}
+
+@media (max-width: 720px) {
+
+   .box {
+       flex-direction: column;
+       height: 400px;
+   }
+
+   .left,
+   .right {
+       width: 100%;
+       max-width: 100%;
+       padding: 24px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .left {
+       font-size: 0.8em;
+   }
+
+   .left {
+       width: 95%;
+       text-align: center;
+   }
+
+   .right img {
+      width: 80%;
+  }
+
+}
+
+@media (max-width: 650px) {
+   .certification {
+        margin: 25% 0 0 10%;
+   }
+
+
+   .boxss {
+      text-align: center;
+   }
+
+   .box {
+      width: 450px;
+      height: 20px;
+      box-sizing: border-box;
+      padding: 20px;
+      text-align: center;
+   }
+   
+   .boxss .certiImg img{
+      height: 110px;
+      float: left;
+   }
+   .boxss .certiTitle h1 {
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+   }
+
+   .boxss .certiTitle p {
+      font-size: 16px;
+      margin-top: 15px;
+   }
+}

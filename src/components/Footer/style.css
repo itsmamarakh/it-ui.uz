@@ -1,0 +1,147 @@
+.footer-card {
+   background-color: rgb(19 19 21);
+   height: 310px;
+}
+
+.footer {
+   padding: 40px 20px 20px 20px;
+   display: grid;
+   grid-template-columns: auto auto auto auto auto;
+}
+
+.footer-logo {
+   margin-left: -4px;
+}
+
+.info-title {
+   font-weight: bold;
+   color: #fff;
+}
+
+li {
+   color: rgb(164, 164, 164);
+   list-style-type: none;
+}
+
+.social-list {
+   list-style: none;
+   display: flex;
+   margin-top: 20px;
+   padding: 0;
+}
+
+
+
+.social-list li:nth-child(1):hover .fa {
+   color: #3b5999;
+}
+.social-list li:nth-child(2):hover .fa {
+   color: #c32aa3;
+}
+.social-list li:nth-child(3):hover .fa {
+   color: #c90000;
+}
+.social-list li:nth-child(4):hover .fa {
+   color: #0077b5;
+}
+
+.social-list .social-link {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 30px;
+   height: 30px;
+   border-radius: 20%;
+   background-color: #f8f8f8;
+   margin-right: 15px;
+   color: rgb(20, 80, 102);
+   font-size: 20px;
+   text-decoration: none;
+   transition: .4s ease-out;
+   box-shadow: inset 0px 0px 0px 5px rgba(255, 255, 255, 0.753),
+               0px 3px 10px rgba(0, 0, 0, 0.411);
+}
+
+.social-list .social-link:hover {
+   border-radius: 50%;
+   box-shadow: inset 0px 0px 0px 5px rgba(255, 255, 255, 0.753),
+               0px 5px 5px rgba(0, 0, 0, 0.61);
+}
+
+.fa {
+   transition: .4s
+}
+
+.social-list .social-link:hover .fa {
+   transform: scale(1.3);
+   transition: .4s;
+}
+
+
+.footer-contact {
+   color: #fff;
+   margin: 20px 0 0 0;
+}
+
+.contact-icon {
+   margin-top: 8px;
+}
+
+.footer-contact span {
+   margin-left: 10px;
+   cursor: pointer;
+}
+
+.footer-contact a{
+text-decoration: inherit;
+color: #fff;
+}
+
+.footer-contact :hover {
+  color: #8F77FF;
+}
+
+.footer-border {
+   border-top: 1px solid #333;
+   margin: 0 30px;
+}
+
+.footer-card .footer-title h1{
+   color: #fff;
+   font-size: 18px;
+}
+
+@media (max-width:850px) {
+   .footer-card {
+      margin-top: 150px;
+      background-color: rgb(19 19 21);
+      height: 450px;
+   }
+
+   .footer-main ul {
+      padding: 0;
+   }
+
+   .footer-product ul{
+      padding: 0;
+   }
+
+
+   .footer {
+      display: grid;
+      grid-template-columns: auto auto;
+   }
+
+   .contact-icon {
+      margin-bottom: 10px;
+      cursor: pointer;
+   } 
+}
+
+@media (max-height: 670px) {
+   .footer-card {
+      margin-top: 100px;
+      background-color: rgb(19 19 21);
+      height: 450px;
+   }
+}

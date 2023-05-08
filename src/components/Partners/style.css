@@ -1,0 +1,112 @@
+.TopCate {
+   position: relative;
+   height: 300px;
+   margin-top: 50px;
+ }
+ .TopCate img {
+   width: 90%;
+   height: 80%;
+   border-radius: 5px;
+   text-align: center;
+ }
+
+ .TopCate .nametop {
+   position: relative;
+   width: 100%;
+ }
+ 
+ .TopCate .nametop span {
+   background: #0f3460;
+   color: #fff;
+   font-size: 12px;
+   padding: 5px 10px;
+   border-radius: 50px;
+   margin: 5px;
+   position: absolute;
+   top: 10px;
+ }
+ .TopCate .nametop .tleft {
+   left: 0;
+ }
+ 
+ .TopCate .nametop .tright {
+   background-color: aliceblue;
+   color: black;
+   position: absolute;
+   right: 0;
+ }
+ 
+ .LogoCart {
+   background-color: rgb(19 19 21);
+   height: 130px;
+   margin: 0 10px;
+   width: 300px;
+   border-radius: 20px;
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+
+ }
+
+ .LogoCart:hover {
+   border: 1px solid #444;
+   transition: 1s;
+   
+ }
+
+
+
+ .LogoCart .img img {
+   padding: 10px 30px;
+   margin: 10px 0px 0px 25px;
+   justify-content: center;
+ }
+
+ .partners-img {
+  width: 100px;
+ }
+
+ .LogoCart .img {
+   position: relative;
+   overflow:hidden;
+   -webkit-transition: all .3s
+   linear;
+  -moz-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;  
+ }
+
+ .title {
+   background:#333;
+   color: white;
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   margin-left: -50px;
+   margin-bottom: -30px;
+   width: 100px;
+   height: 30px;
+   line-height: 30px;
+   text-align: center;
+   opacity: 0;
+   -webkit-transition: all .3s linear;
+   -moz-transition: all .3s linear;
+   -o-transition: all .3s linear;
+   transition: all .3s linear;
+ }
+ 
+ .LogoCart .img:hover {
+   opacity: .5;
+ }
+ 
+ .LogoCart .img:hover .title {
+   opacity: 1;
+   margin-bottom: 50px;
+ }
+
+ .heading-right h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 34px;
+  margin: 15px;
+ }
+ 
